@@ -4,8 +4,8 @@ import datetime
 class BotHandler:
 
     def __init__(self, token):
-        self.token = 617460887:AAEJ1mpQVOtBmIuSWMF0sF18VK64fjMD32w
-        self.api_url = "https://api.telegram.org/bot{}/".format(token)
+        self.token = token
+        self.api_url = "https://api.telegram.org/bot{617460887:AAEJ1mpQVOtBmIuSWMF0sF18VK64fjMD32w}/".format(token)
 
     def get_updates(self, offset=None, timeout=30):
         method = 'getUpdates'
