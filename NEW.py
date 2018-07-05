@@ -27,8 +27,7 @@ class BotHandler:
             last_update = get_result[-1]
         else:
             last_update = get_result[len(get_result)]
-		
-		return last_update
+        return last_update
 greet_bot = BotHandler(token)  
 greetings = ('hello', 'hi', 'greetings', 'sup')  
 ow = datetime.datetime.now()
