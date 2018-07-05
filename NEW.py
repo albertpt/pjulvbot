@@ -28,9 +28,9 @@ class BotHandler:
         else:
             last_update = get_result[len(get_result)]
         return last_update
-greet_bot = BotHandler(token)  
-greetings = ('hello', 'hi', 'greetings', 'sup')  
-ow = datetime.datetime.now()
+ greet_bot = BotHandler(token)  
+ greetings = ('hello', 'hi', 'greetings', 'sup')  
+ ow = datetime.datetime.now()
 
 def main():  
     new_offset = None
