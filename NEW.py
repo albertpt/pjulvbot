@@ -31,7 +31,7 @@ class BotHandler:
 
 greet_bot = BotHandler("617460887:AAEJ1mpQVOtBmIuSWMF0sF18VK64fjMD32w")  
 greetings = ('hello', 'hi', 'greetings', 'sup')  
-ow = datetime.datetime.now()
+now = datetime.datetime.now()
 
 def main():  
     new_offset = None
